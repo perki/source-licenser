@@ -1,6 +1,6 @@
 /**
  * @license
- * [BSD-3-Clause](https://github.com/pryv/source-licenser/blob/master/LICENSE)
+ * [BSD-3-Clause](https://github.com/perki/source-licenser/blob/master/LICENSE)
  */
 
 const nconf = require('nconf');

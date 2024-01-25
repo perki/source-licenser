@@ -14,7 +14,7 @@ files:
     # Forced & default JSON key values for package.json
     json:
       force:
-        author: "{AUTHOR_NAME} <{AUTHOR_EMAIL}> ({AUTHOR_WEB})"
+        author: "{AUTHOR_NAME} ({AUTHOR_WEB})"
         license: "{SPDX}"
         private: false
       defaults:
@@ -75,13 +75,12 @@ license: |
 substitutions:
   # `{YEARS}` will evaluate to `end` if `start` == `end`, and to `start–end` otherwise
   YEARS:
-    start: 2020
+    start: 2024
     # `{CURRENT_YEAR}` will evaluate to… 🥁… the current year
     end: CURRENT_YEAR
-  AUTHOR_NAME: "Pryv S.A"
-  AUTHOR_EMAIL: info@pryv.com
-  AUTHOR_WEB: https://pryv.com
+  AUTHOR_NAME: "Perki, Simon, Ilia, Pryv"
+  AUTHOR_WEB: https://github.com/perki/source-licenser
   DESCRIPTION: "Add license information to source files."
-  HOMEPAGE: https://github.com/pryv/source-licenser
-  LICENSE_URL: https://github.com/pryv/source-licenser/blob/master/LICENSE
+  HOMEPAGE: https://github.com/perki/source-licenser
+  LICENSE_URL: https://github.com/perki/source-licenser/blob/master/LICENSE
   SPDX: BSD-3-Clause
